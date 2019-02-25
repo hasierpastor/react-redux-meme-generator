@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import './Meme.css';
 
 class Meme extends Component {
   removeMeme = () => {
