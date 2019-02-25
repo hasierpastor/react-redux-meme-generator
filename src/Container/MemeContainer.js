@@ -26,7 +26,7 @@ class MemeContainer extends Component {
 
 function mapStateToProps(reduxState) {
   return {
-    memes: reduxState.memes
+    memes: reduxState.memes || []
   };
 }
 
